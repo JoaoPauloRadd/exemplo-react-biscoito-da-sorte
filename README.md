@@ -101,16 +101,6 @@ Aguarde ~1–2 minutos e acesse:
 
 ---
 
-## ♿ Acessibilidade
-
-- Garanta que imagens tenham atributo `alt`:
-
-    <img src="{biscoito}" alt="Biscoito da sorte" />
-
-  > Se a imagem for puramente decorativa, use `alt=""`.
-
----
-
 ## 🗺️ Roadmap / Ideias
 
 - Botão “copiar frase”
