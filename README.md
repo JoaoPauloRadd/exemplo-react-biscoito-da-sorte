@@ -87,6 +87,7 @@ Aguarde ~1–2 minutos e acesse:
 ---
 
 ## 🗂️ Estrutura do projeto
+```plaintext
 ├─ public/
 │  └─ index.html
 ├─ src/
