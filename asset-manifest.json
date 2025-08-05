@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/exemplo-react-biscoito-da-sorte/static/css/main.2c4da1f3.css",
+    "main.js": "/exemplo-react-biscoito-da-sorte/static/js/main.1f364d14.js",
+    "static/media/biscoito.png": "/exemplo-react-biscoito-da-sorte/static/media/biscoito.822ad5d424f83871afc6.png",
+    "index.html": "/exemplo-react-biscoito-da-sorte/index.html",
+    "main.2c4da1f3.css.map": "/exemplo-react-biscoito-da-sorte/static/css/main.2c4da1f3.css.map",
+    "main.1f364d14.js.map": "/exemplo-react-biscoito-da-sorte/static/js/main.1f364d14.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2c4da1f3.css",
+    "static/js/main.1f364d14.js"
+  ]
+}
