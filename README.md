@@ -87,17 +87,16 @@ Aguarde ~1–2 minutos e acesse:
 ---
 
 ## 🗂️ Estrutura do projeto
-
-
 ├─ public/
-│ └─ index.html
+│  └─ index.html
 ├─ src/
-│ ├─ App.js # componente principal e lógica do sorteio
-│ ├─ index.js # bootstrap do React
-│ ├─ index.css # estilos globais
-│ └─ (outros arquivos/estilos/imagens)
+│  ├─ App.js          # componente principal e lógica do sorteio
+│  ├─ index.js        # bootstrap do React
+│  ├─ index.css       # estilos globais
+│  └─ (outros arquivos/estilos/imagens)
 ├─ package.json
 └─ ...
+
 
 ---
 
