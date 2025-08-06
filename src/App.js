@@ -6,11 +6,13 @@ class App extends Component{
   constructor(props){
     super(props);
     this.state = {
-      textoFrase : ''
+      textoFrase : '' //carrega sem nenhuma frase (biscoito não quebrado)
     };
 
+    //permitindo a atualização do campo de texto enviando acesso aos atributos
     this.quebraBiscoito = this.quebraBiscoito.bind(this);
 
+    // 10 frases de recado do biscoito
     this.frases = [
       "Uma nova oportunidade baterá à sua porta quando menos esperar.",
       "Confie mais em sua intuição; ela conhece o caminho.",
@@ -28,6 +30,7 @@ class App extends Component{
   quebraBiscoito(){
     let state = this.state;
     let atualiza = true;
+    //laço para garantir que não seja escolhida a mesma frase que antes
     do{
       let nAleatorio= Math.floor(Math.random() * this.frases.length);
       if (!this.state.textoFrase.includes(this.frases[nAleatorio])){
@@ -36,7 +39,7 @@ class App extends Component{
       }
     }while(atualiza)
     
-    this.setState(state);
+    this.setState(state);//atualizo a frase do momento
   }
 
   render(){
@@ -51,6 +54,7 @@ class App extends Component{
   }
 }
 
+//para manipular e disparar o evento de escolha de frase
 class Botao extends Component{
   render(){
     return(
